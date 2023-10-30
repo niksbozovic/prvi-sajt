@@ -1,0 +1,42 @@
+html {
+	font-size: 45px;
+	font-family: 'IBM Plex Mono', monospace;
+}
+
+body {
+	background-color: #4A7B63;
+}
+
+nav {
+	margin: 10%;
+}
+
+a, h1 {	
+	color: #D9D8D6;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	color: 	#FFC166;
+}
+
+.strong {
+	font-weight: bold;
+}
+
+video {
+	width: 50%;
+	display: block;
+	margin: 5% auto;
+	border: 5%;
+}
+
+img {
+	width: 50%;
+	display: block;
+	margin: 5% auto;
+	border: 5%;
+}
