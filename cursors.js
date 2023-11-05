@@ -6,9 +6,9 @@ let aimY = 0
 
 balls.forEach((ball, index) => {
   let currentX = 0
-	let currentY = 0
+  let currentY = 0
 
-	let speed = 0.3 - index * 0.015
+  let speed = 0.3 - index * 0.015
   
   const animate = function () {
     currentX += (aimX - currentX) * speed
