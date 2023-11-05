@@ -9,8 +9,8 @@ body {
 }
 
 nav {
-	position: fixed;
 	margin: 10%;
+	position: fixed;
 }
 
 a, h1 {	
