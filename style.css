@@ -9,7 +9,7 @@ body {
 }
 
 nav {
-	margin: 10%;
+	margin: 10%
 }
 
 a, h1 {	
@@ -29,18 +29,19 @@ a:hover {
 }
 
 video {
-	width: 50%;
+	width: 40%;
 	display: block;
-	margin: 5% auto;
-	border: 5%;
+	margin: 2% auto;
+	border: 2%;
 }
 
 img {
-	width: 50%;
+	width: 40%;
 	display: block;
-	margin: 5% auto;
-	border: 5%;
+	margin: 2% auto;
+	border: 2%;
 }
+
 
 div.cursors div {
   position: absolute;
