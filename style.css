@@ -9,6 +9,7 @@ body {
 }
 
 nav {
+	position: fixed;
 	margin: 10%;
 }
 
