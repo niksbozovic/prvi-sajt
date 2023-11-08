@@ -43,6 +43,16 @@ img {
 	border: 2%;
 }
 
+@media only screen {
+	img {
+		width: 100%;
+	}
+
+	video {
+		width: 100%;
+	}
+}
+
 
 div.cursors div {
   position: absolute;
