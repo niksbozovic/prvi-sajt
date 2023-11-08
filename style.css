@@ -1,5 +1,5 @@
 html {
-	font-size: 45px;
+	font-size: 40px;
 	font-family: 'IBM Plex Mono', monospace;
 	cursor: none;
 }
@@ -11,6 +11,7 @@ body {
 nav {
 	margin: 10%;
 }
+
 
 a, h1 {	
 	color: #D9D8D6;
@@ -29,15 +30,15 @@ a:hover {
 }
 
 video {
-	width: 100%;
-	display: block;
+	width: 60%;
+	display: flex;
 	margin: 2% auto;
 	border: 2%;
 }
 
 img {
-	width: 100%;
-	display: block;
+	width: 60%;
+	display: flex;
 	margin: 2% auto;
 	border: 2%;
 }
