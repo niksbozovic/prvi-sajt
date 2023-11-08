@@ -12,7 +12,6 @@ nav {
 	margin: 10%;
 }
 
-
 a, h1 {	
 	color: #D9D8D6;
 }
@@ -30,15 +29,17 @@ a:hover {
 }
 
 video {
-	max-width: 100%;
-	height: auto;
-	display: flex;
+	width: 60%;
+	display: block;
+	margin: 2% auto;
+	border: 2%;
 }
 
 img {
-	max-width: 100%;
-	height: auto;
-	display: flex;
+	width: 60%;
+	display: block;
+	margin: 2% auto;
+	border: 2%;
 }
 
 
