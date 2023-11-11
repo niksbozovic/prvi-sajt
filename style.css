@@ -28,18 +28,14 @@ a:hover {
 	font-weight: bold;
 }
 
-video {
-	width: 90%;
-	display: block;
-	margin: 2%;
-	border: 2%;
+.container {
+  inline-size: min(100% - 4rem, 70rem);
+  margin-inline: auto;
 }
 
-img {
-	width: 90%;
-	display: block;
-	margin: 2%;
-	border: 2%;
+.flow {
+  display: grid;
+  gap: var(--size-3);
 }
 
 
