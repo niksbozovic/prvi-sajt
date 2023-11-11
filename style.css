@@ -70,13 +70,6 @@ a:hover {
 	object-fit: cover;
 }
 
-#vid-special {
-	display: inline-block;
-	padding: 2%;
-	margin: 10% auto;
-	width: 80%;
-}
-
 div.cursors div {
   position: absolute;
   top: 300px;
