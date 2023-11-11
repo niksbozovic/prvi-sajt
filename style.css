@@ -38,6 +38,37 @@ a:hover {
   gap: var(--size-3);
 }
 
+.media-scroller {
+	width: 80%;
+	margin: 10% auto;
+	display: grid;
+	grid-auto-flow: column;
+	grid-auto-columns: 80%;
+	overflow-x: auto;
+	overscroll-behavior-inline: contain;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+.media-scroller::-webkit-scrollbar {
+	display: none;
+}
+
+.media-element {
+	display: grid;
+	grid-template: min-content;
+	padding: .25%;
+}
+
+.media-element > img {
+	inline-size: 100%;
+	object-fit: cover;
+}
+
+.media-element > video {
+	inline-size: 100%;
+	object-fit: cover;
+}
 
 div.cursors div {
   position: absolute;
