@@ -28,16 +28,6 @@ a:hover {
 	font-weight: bold;
 }
 
-.container {
-  inline-size: min(100% - 4rem, 70rem);
-  margin-inline: auto;
-}
-
-.flow {
-  display: grid;
-  gap: var(--size-3);
-}
-
 .media-scroller {
 	width: 80%;
 	margin: 10% auto;
