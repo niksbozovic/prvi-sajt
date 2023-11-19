@@ -75,7 +75,7 @@ div.cursors div {
   transform: translate(-50%, -50%);
 }
 
-@media screen and (max-width: 700px) {
+@media (max-height: 600px) {
 	nav {
 		margin: 10% 10% 10% 10%;
 	}
