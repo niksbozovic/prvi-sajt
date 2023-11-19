@@ -75,11 +75,38 @@ div.cursors div {
   transform: translate(-50%, -50%);
 }
 
-@media (max-height: 600px) {
+@media only screen and (max-width: 600px) and (orientation: portrait){
+	nav {
+		width: 80%;
+	}
+	a, h1 {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 600px) and (orientation: landscape){
+	nav {
+		width: 80%;
+	}
+	a, h1 {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (min-width: 601px) {
 	nav {
 		margin: 10% 10% 10% 10%;
 	}
 	a, h1 {
 		font-size: 15px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	nav {
+		margin: 10% 40% 10% 10%;
+	}
+	a, h1 {
+		font-size: 25px;
 	}
 }
