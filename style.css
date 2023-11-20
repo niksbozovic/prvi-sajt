@@ -20,10 +20,12 @@ a, h1 {
 
 a:link {
 	text-decoration: none;
+	cursor: none;
 }
 
 a:hover {
 	color: 	#FFC166;
+	cursor: none;
 }
 
 .strong {
@@ -84,7 +86,7 @@ div.cursors div {
 	}
 }
 
-@media only screen and (max-width: 600px) and (orientation: landscape){
+@media only screen and (max-height: 600px) and (orientation: landscape){
 	nav {
 		margin: 10%;
 	}
